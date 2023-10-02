@@ -1,0 +1,20 @@
+19:37:47.097 [main] INFO  c.c.o.b.BillingConsumerApplication - Starting BillingConsumerApplication using Java 17.0.8.1 with PID 17820 (C:\Users\c50252\Documents\billingConsumer\build\classes\java\main started by c50252 in C:\Users\c50252\Documents\billingConsumer)
+19:37:47.097 [main] INFO  c.c.o.b.BillingConsumerApplication - No active profile set, falling back to 1 default profile: "default"
+19:37:48.411 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
+19:37:48.419 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+19:37:48.422 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:37:48.422 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+19:37:48.543 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:37:48.544 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1383 ms
+19:37:49.534 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+19:37:49.566 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
+19:37:49.581 [main] INFO  c.c.o.b.BillingConsumerApplication - Started BillingConsumerApplication in 2.895 seconds (process running for 3.571)
+19:37:49.581 [main] INFO  c.c.o.b.BillingConsumerApplication - STARTING APP
+19:37:56.206 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:37:56.206 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:37:56.206 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+19:37:56.367 [http-nio-8083-exec-3] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.cox.oss.billingConsumer.interfaces.endpoint.BillingEndpoint
+19:37:56.635 [http-nio-8083-exec-3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 319 ms
+19:38:42.689 [http-nio-8083-exec-5] INFO  c.c.o.b.services.BillingServiceImpl - Billing(number) was created successfully: 111
+19:38:56.787 [http-nio-8083-exec-7] INFO  c.c.o.b.services.BillingServiceImpl - Billing(number) was updated successfully: 111
+19:39:13.530 [http-nio-8083-exec-9] INFO  c.c.o.b.services.BillingServiceImpl - Billing(number) was deleted successfully: 111
